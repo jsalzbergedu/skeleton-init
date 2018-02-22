@@ -61,6 +61,5 @@ if not os.path.exists(project):
     f = open("test/{}".format(test_filename), "w")
     f.write(test_generated)
     f.close()
-    print("hihi")
 else:
     print("Project {} already exists".format(project))
